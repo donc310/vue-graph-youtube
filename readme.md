@@ -1,7 +1,7 @@
 
 ## ABOUT
 
-LINK : <a href="https://ngraph-youtube.herokuapp.com/#?q=baby">https://ngraph-youtube.herokuapp.com</a>
+LINK : <a href="https://ngraph-youtube.herokuapp.com/#?q=baby">https://ngraph-youtube.herokuapp.com/#?q=baby</a>
 
 ## Project setup
 
