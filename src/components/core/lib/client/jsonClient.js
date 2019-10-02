@@ -1,13 +1,4 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-console */
 
-/**
-* Every client should 
-* 1. A search method which takes  3 mandatory parameters (query, success_callback, error_callback)
-* 2. A link method  which takes  4  mandatory parameters (id ,  maxResult, success_callback, error_callback)
-* 3. A getItemId method that returns the unique identifer of every item 
-* 4. A extractData method 
-*/
 import httpGet from './client';
 
 
@@ -52,9 +43,9 @@ export default class {
         return this.makeRequest(args, callback, error);
     }
     /**
-     * 
-     * @param {Object} data 
-     */
+    * 
+    * @param {Object} data 
+    */
     extractData(data) {
         const image = data.thumbnail
         const width = 60;
@@ -69,9 +60,9 @@ export default class {
         }
     }
     /**
-     * 
-     * @param {Object} item 
-     */
+    * 
+    * @param {Object} item 
+    */
     getItemId(item) {
         return item.id;
     }

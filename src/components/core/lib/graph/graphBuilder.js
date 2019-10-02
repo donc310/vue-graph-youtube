@@ -135,7 +135,7 @@ export function buildGraph(searchTerm, request) {
                 }
             }
             graph.endUpdate();
-            progress.update('Found ' + graph.getNodesCount() + ' videos. Searching more...');
+            progress.update('Found ' + graph.getNodesCount() + ' items. Searching more...');
             loadMissing(itemsToProcess, progress);
         }, () => {
             progress.update('Could not find related items for one item. Skipping this one and searching for more...');

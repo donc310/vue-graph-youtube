@@ -72,11 +72,22 @@ export default {
 };
 </script>
 <style>
-  .window {
-    left: 8px;
-    top: 64px;
-    width: 420px;
-    height: 290px; /* 248 - is golden ratio of 420 + 42px for the header */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 -1px 0 rgba(0, 0, 0, 0.02);
-  }
+.window {
+  left: 8px;
+  top: 64px;
+  width: 420px;
+  height: 290px; /* 248 - is golden ratio of 420 + 42px for the header */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 -1px 0 rgba(0, 0, 0, 0.02);
+}
+.open-sidebar {
+  position: absolute;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 15px;
+}
 </style>
