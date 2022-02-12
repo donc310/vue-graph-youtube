@@ -9,7 +9,7 @@
     "start": "node server/index.js"
   },
   "dependencies": {
-    "ajv": "^6.10.2",
+    "ajv": "^6.12.3",
     "core-js": "^2.6.5",
     "express": "^4.17.1",
     "gintersect": "^0.1.0",
