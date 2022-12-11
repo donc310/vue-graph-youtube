@@ -11,7 +11,7 @@
   "dependencies": {
     "ajv": "^6.10.2",
     "core-js": "^2.6.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gintersect": "^0.1.0",
     "morgan": "^1.9.1",
     "ngraph.forcelayout": "^1.0.0",
